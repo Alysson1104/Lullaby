@@ -42,10 +42,22 @@ body {
     align-items: center;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
 .logo h1 {
     color: #ff9ebc;
     font-size: 1.8rem;
     font-weight: 700;
+}
+
+.logo-image {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
 }
 
 .nav-menu {
@@ -623,6 +635,19 @@ body {
 .footer-section h4 {
     margin-bottom: 1rem;
     color: #ff9ebc;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.footer-logo-image {
+    height: 30px;
+    width: auto;
+    object-fit: contain;
 }
 
 .footer-section ul {
